@@ -8,3 +8,11 @@ var currentHour = moment().hours()
 4. Set the value saved in local storage in text area
 5. Create conditional to know what time it is so that we color code (CSS)
 */
+
+$(".saveBtn").on("click", function(){
+    var textValue = $(this).siblings(".textValue").val()
+
+    var divKey = $(this).parent().attr("id")
+    localStorage.setItem(divKey, textValue)
+})
+
