@@ -27,13 +27,14 @@ $("#16 .textValue").val(localStorage.getItem("16"))
 $("#17 .textValue").val(localStorage.getItem("17"))
 
 function updateCss() {
-    $("timeDiv").each(function() {
+    currentTime = moment().hours()
+    $(".timeDiv").each(function() {
         var divId = $(this).attr("id")
         
-        if (currentTime === divId) {
+        if (currentTime == divId) {
             $(this).addClass("present")
-        } else if (currentTime <= divId) {
-            $(this).add("past")
+        } else if (currentTime < divId) {
+            $(this).addClass("past")
         } else {
             $(this).addClass("future")
         }
@@ -41,6 +42,6 @@ function updateCss() {
     })
 }
 
-
+updateCss()
 
 
