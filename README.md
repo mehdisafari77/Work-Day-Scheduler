@@ -1,7 +1,8 @@
 # Work-Day-Scheduler
 A workday scheduler in Javascript
 
-## Site Picture
+## Site Picture<img width="1617" alt="Screenshot 2021-09-30 at 17 23 58" src="https://user-images.githubusercontent.com/75599021/135547590-852f872a-e240-403c-9ce5-69f5d0f298c3.png">
+
 
 ## Deployed Link
 
