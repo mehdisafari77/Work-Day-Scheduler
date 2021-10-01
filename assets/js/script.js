@@ -34,9 +34,9 @@ function updateCss() {
         if (currentTime == divId) {
             $(this).addClass("present")
         } else if (currentTime < divId) {
-            $(this).addClass("past")
-        } else {
             $(this).addClass("future")
+        } else {
+            $(this).addClass("past")
         }
 
     })
