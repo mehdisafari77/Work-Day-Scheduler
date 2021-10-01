@@ -1,14 +1,16 @@
 body {
+  background-color: rgb(243, 241, 122);
   font-family: 'EB Garamond', serif;
-  font-size: 17px;
+  font-size: 20px;
   line-height: 1;
+  text-align: center;
 }
 
 textarea{
   background: transparent;
   border: none;
   resize: none;
-  color: #000000;
+  color: #fff;
   border-left: 1px solid black;
   padding: 10px;
 }
@@ -16,7 +18,7 @@ textarea{
 .jumbotron {
   text-align: center;
   font-family: 'Satisfy', cursive;
-  background-color: rgb(92, 143, 194);
+  background-color: rgb(128, 177, 226);
   color: #fff;
   border-radius: 30%;
   border-bottom: 3px solid rgb(135, 245, 120);
@@ -41,13 +43,14 @@ textarea{
   height: 80px;
   border-top: 1px solid white;
   margin-bottom: 5px;
+  border-radius: 12%;
 }
 
 .hour {
   text-align: center;
-  background-color: #ffffff;
-  color: #000000;
-  border-top: 1px dashed #000000;
+  background-color: #bc8cf3;
+  color: #fff;
+  border-top: 1px dashed #fff;
 }
 
 .past {
@@ -69,7 +72,7 @@ textarea{
   border-left: 1px solid black;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
-  background-color: #06AED5;
+  background-color: #bc8cf3;
   color: white;
 }
 
